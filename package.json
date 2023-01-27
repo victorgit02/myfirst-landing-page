@@ -1,0 +1,23 @@
+{
+  "name": "myfirst-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorgit02/myfirst-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorgit02/myfirst-landing-page/issues"
+  },
+  "homepage": "https://github.com/victorgit02/myfirst-landing-page#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
