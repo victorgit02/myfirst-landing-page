@@ -17,6 +17,7 @@ body {
   background-color: var(--morado);
 }
 #footer {
+  height: 350px;
   background-color:rgba(97, 97, 97, 0.985);
   scroll-behavior: smooth;
 }
@@ -58,4 +59,26 @@ ul li:hover{
   margin-top: 4px;
   margin-right: 5px;
   margin-left: 5px;
+}
+
+.inactive{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .inactive{
+    display: block;
+    width: 44px;
+    height: 23px;
+    margin-top: 120px;
+    margin-right: 10px;
+    margin-left: 213px;
+    background-color: var(--morado);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+#Menu {
+  display: hidden;
 }

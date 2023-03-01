@@ -1,11 +1,17 @@
 const projects = document.getElementById("projects");
       pList = document.getElementById("project-list");
 
-      projects.addEventListener(`click`, (event) => {
+      projects.addEventListener(`click`, (e) => {
         pList.classList.toggle("active");
   
       });
 
+const burgerMenu = document.getElementById("burguer-menu");
+      menu = document.getElementById("Menu");
+
+      burgerMenu.addEventListener(`click`,(e) =>{
+        menu.style.display = "block";
+      } )
 
 
 const API = 'https://youtube-v31.p.rapidapi.com/playlistItems?playlistId=PLnGMykJNqni4gOlKLBtU3-6wD5GNG1P8w&part=snippet&maxResults=9';
