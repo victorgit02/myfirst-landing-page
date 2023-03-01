@@ -1,6 +1,6 @@
 :root {
-  --morado: hsl(243, 70%, 59%);
-  --aguamarina: #92b9c7;
+  --morado: hsla(243, 70%, 59%, 0.809);
+  --silver: rgba(210, 210, 210, 0.985);
   --sm: 14px;
   --md: 16px;
   --lg: 20px;
@@ -10,16 +10,19 @@ body {
   font-family: "Tilt Neon", cursive;
 }
 
-#back {
-  background-color: #92b9c7;
+#top-section {
+  background-color: rgba(210, 210, 210, 0.985);
+}
+#mid {
+  background-color: var(--morado);
 }
 #footer {
-  background-color: #92b9c7;
+  background-color:rgba(97, 97, 97, 0.985);
   scroll-behavior: smooth;
 }
 
 ul {
-    height: 100px;
+    height: 110px;
   padding: 10px 10px 10px;
   width: auto;
   background-color: var(--morado);
@@ -35,9 +38,9 @@ ul li {
     font-size: var(--lg);
 }
 ul li:hover{
-  background-color: var(--aguamarina);
+  background-color: var(--silver);
   border-radius: 10px;
- box-shadow: 2px 0 7px 2px var(--aguamarina);
+ box-shadow: 2px 0 7px 2px var(--silver);
 }
 
 #Menu {
