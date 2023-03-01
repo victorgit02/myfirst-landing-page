@@ -1,0 +1,58 @@
+:root {
+  --morado: hsl(243, 70%, 59%);
+  --aguamarina: #92b9c7;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 20px;
+}
+
+body {
+  font-family: "Tilt Neon", cursive;
+}
+
+#back {
+  background-color: #92b9c7;
+}
+#footer {
+  background-color: #92b9c7;
+  scroll-behavior: smooth;
+}
+
+ul {
+    height: 100px;
+  padding: 10px 10px 10px;
+  width: auto;
+  background-color: var(--morado);
+  box-shadow: 2px 0px 7px 2px var(--morado);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: var(--lg);
+  transition: all .5s ease;
+ 
+  
+}
+ul li {
+    font-size: var(--lg);
+}
+ul li:hover{
+  background-color: var(--aguamarina);
+  border-radius: 10px;
+ box-shadow: 2px 0 7px 2px var(--aguamarina);
+}
+
+#Menu {
+  margin-top: 40px;
+}
+
+.active {
+    transform: translateY(-600px);
+}
+
+.instagram_icon {
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-top: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+}

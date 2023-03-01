@@ -1,3 +1,13 @@
+const projects = document.getElementById("projects");
+      pList = document.getElementById("project-list");
+
+      projects.addEventListener(`click`, (event) => {
+        pList.classList.toggle("active");
+  
+      });
+
+
+
 const API = 'https://youtube-v31.p.rapidapi.com/playlistItems?playlistId=PLnGMykJNqni4gOlKLBtU3-6wD5GNG1P8w&part=snippet&maxResults=9';
 
 const content = null || document.getElementById('content');
@@ -51,3 +61,4 @@ async function fetchData(urlApi) {
     .then(response => response.json())
     .then(response => console.log(response))
     .catch(err => console.error(err));
+
