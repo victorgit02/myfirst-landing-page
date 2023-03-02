@@ -2,8 +2,8 @@
   --morado: hsla(243, 70%, 59%, 0.809);
   --silver: rgba(210, 210, 210, 0.985);
   --sm: 14px;
-  --md: 16px;
-  --lg: 20px;
+  --md: 17px;
+  --lg: 26px;
 }
 
 body {
@@ -30,13 +30,12 @@ ul {
   box-shadow: 2px 0px 7px 2px var(--morado);
   border-radius: 10px;
   cursor: pointer;
-  font-size: var(--lg);
   transition: all .5s ease;
  
   
 }
 ul li {
-    font-size: var(--lg);
+    font-size: var(--md);
 }
 ul li:hover{
   background-color: var(--silver);
@@ -60,7 +59,14 @@ ul li:hover{
   margin-right: 5px;
   margin-left: 5px;
 }
-
+#email {
+  font-size: var(--lg);
+}
+#github {
+  font-size: var(--lg);
+  cursor: pointer;
+  text-decoration: underline;
+}
 .inactive{
   display: none;
 }
